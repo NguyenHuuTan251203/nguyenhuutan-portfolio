@@ -1,0 +1,125 @@
+.skills {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  height: 900px;
+  color: #2c3e50;
+  margin-bottom: 300px;
+}
+
+.skills__intro {
+  border: none;
+  margin-bottom: 30px;
+}
+
+.skills__intro-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  text-align: center;
+}
+
+.skills__heading {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.skills__section {
+  display: flex;
+  gap: 30px;
+}
+
+.skills__icon-wrapper {
+  height: 10px;
+  width: 200px;
+  border: none;
+}
+
+.skills__icon-container {
+  transform: rotate(30deg);
+}
+
+.skills__icon-wrapper img {
+  width: 100%;
+  height: auto;
+  animation: icon 6s ease-in-out infinite;
+}
+
+.skills__content {
+  padding: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 15px;
+  min-height: 350px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.skills__title {
+  display: flex;
+  height: 60px;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.skills__title img {
+}
+
+.skills__title h1 {
+  align-self: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.skills__tech-list {
+  display: flex;
+}
+
+.skills__tech-item {
+  width: 90px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2c3e50;
+  font-size: 15px;
+}
+.skills__tech-item img {
+  width: 100%;
+  height: auto;
+  animation: icon 6s ease-in-out infinite;
+}
+
+.skills__soft-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 80px;
+}
+
+.skills__soft-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  border-radius: 12px;
+  background: #f9fafb;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.skills__soft-item i {
+  font-size: 18px;
+  color: #2563eb;
+}
+
+.skills__soft-item p {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.skills__soft-item:hover {
+  background: #eef2ff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 14px rgba(37, 99, 235, 0.15);
+}
