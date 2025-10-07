@@ -135,6 +135,9 @@
   }
 } 
 /* skills */
+  .skills {
+    margin-bottom: 800px;
+  }
 
   .skills__title h1 {
     font-size: 1.25rem;
